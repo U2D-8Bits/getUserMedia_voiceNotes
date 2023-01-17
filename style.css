@@ -1,0 +1,81 @@
+
+html, body{
+   margin: 0;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+}
+.head{
+   background-color: #212529 ;
+   display: flex;
+   align-items: center;
+
+}
+
+.imgLogo{
+   width: 12rem;
+   height: 3rem;
+}
+
+.texto{
+   display: flex;
+   width: -webkit-fill-available;
+   color: #ffff;
+   font-weight: bolder;
+   justify-content: center;
+   font-family: 'Lato', sans-serif;
+   font-family: 'Roboto', sans-serif;
+   padding-right: 11rem;
+
+}
+
+.cuerpo{
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   height: 100%;
+}
+
+.voice{
+   background-color: #E3E6E8;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 100%;
+}
+
+.containerVoice{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.boxVoice{
+   width: 40rem;
+   height: 10rem;
+ margin-bottom: 1rem;
+   background-color: #ffff;
+   border-radius: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.imgVoiceRecord{
+   width: 40px;
+   height: 40px;
+}
+
+.btnVoice{
+   width: 8rem;
+   height: 3rem;
+   border-radius: 10px;
+   background-color: #4AC458 ;cursor: pointer;
+}
+
+/* .btnVoice:hover{
+   background-color: red;
+   cursor: pointer;
+} */
